@@ -1,0 +1,37 @@
+[
+  {
+    "timestamp": "2025-09-27T10:00:00Z",
+    "speed_kph": 80,
+    "battery_soc_percent": 95,
+    "motor_temp_c": 65,
+    "odometer_km": 12345.6
+  },
+  {
+    "timestamp": "2025-09-27T10:00:10Z",
+    "speed_kph": 82,
+    "battery_soc_percent": 94,
+    "motor_temp_c": 66,
+    "odometer_km": 12346.0
+  },
+  {
+    "timestamp": "2025-09-27T10:00:20Z",
+    "speed_kph": 78,
+    "battery_soc_percent": 93,
+    "motor_temp_c": 67,
+    "odometer_km": 12346.4
+  },
+  {
+    "timestamp": "2025-09-27T10:00:30Z",
+    "speed_kph": 85,
+    "battery_soc_percent": 92,
+    "motor_temp_c": 68,
+    "odometer_km": 12346.8
+  },
+  {
+    "timestamp": "2025-09-27T10:00:40Z",
+    "speed_kph": 75,
+    "battery_soc_percent": 91,
+    "motor_temp_c": 69,
+    "odometer_km": 12347.2
+  }
+]

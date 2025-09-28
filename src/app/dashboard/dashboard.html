@@ -1,0 +1,33 @@
+<div class="dashboard-container" *ngIf="currentVehicleData">
+  <header class="dashboard-header">
+    <h1>Vehicle Telemetry Dashboard</h1>
+    <p>Last Updated: {{ currentVehicleData.timestamp | date:'short' }}</p>
+  </header>
+
+  <div class="metrics-grid">
+    <div class="metric-card">
+      <h3>Speed</h3>
+      <p class="metric-value">{{ currentVehicleData.speed_kph }} km/h</p>
+    </div>
+
+    <div class="metric-card">
+      <h3>Battery</h3>
+      <p class="metric-value">{{ currentVehicleData.battery_soc_percent }}%</p>
+    </div>
+
+    <div class="metric-card">
+      <h3>Temperature</h3>
+      <p class="metric-value">{{ currentVehicleData.motor_temp_c }}°C</p>
+    </div>
+
+    <div class="metric-card">
+      <h3>Odometer</h3>
+      <p class="metric-value">{{ currentVehicleData.odometer_km }} km</p>
+    </div>
+  </div>
+</div>
+
+<div class="loading-message" *ngIf="!currentVehicleData">
+  <h2>🔄 Loading Vehicle Telemetry Data...</h2>
+  <p>Connecting to Electric Vehicle...</p>
+</div>
