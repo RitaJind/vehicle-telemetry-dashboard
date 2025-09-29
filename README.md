@@ -2,7 +2,7 @@
 
 ##  Overview
 
-web dashboard for monitoring electric vehicle telemetry data in real-time. Built with Angular standalone components and designed for Industrial IoT (IIoT) applications with minimal complexity and maximum efficiency.
+Web dashboard for monitoring electric vehicle telemetry data in real-time. Built with Angular standalone components and designed for Industrial IoT (IIoT) applications with minimal complexity and maximum efficiency.
 
 ##  System Architecture
 
@@ -41,7 +41,7 @@ A **minimal Angular application** for real-time vehicle telemetry monitoring wit
 ![Dashboard Desktop](images/dashboard-desktop.png)
 
 ### Mobile View  
-![Dashboard Mobile](images/dashboard-mobile.png)
+![Dashboard Mobile](images/dashboard-mobil.png)
 
 ##  Overview
 
@@ -184,4 +184,5 @@ ng build
 **Rita Jindal** - Software Engieer  
 
 *Passionate about building scalable, secure, and maintainable software solutions. Experienced in microservices architecture, cloud-native, and full-stack software development.*
+
 
