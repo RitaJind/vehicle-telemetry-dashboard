@@ -1,12 +1,8 @@
-# 🚗 Vehicle Tel## 🚀 Overview
+# 🚗 Vehicle Telemetry Overview
 
-L##  Screenshots
+##  Overview
 
-### Desktop View
-![Dashboard Desktop](images/dashboard-desktop.png)
-
-### Mobile View (iPhone 12 Pro - 390x844)
-![Dashboard Mobile](images/dashboard-mobile.png)ght web dashboard for monitoring electric vehicle telemetry data in real-time. Built with Angular standalone components and designed for Industrial IoT (IIoT) applications with minimal complexity and maximum efficiency.
+web dashboard for monitoring electric vehicle telemetry data in real-time. Built with Angular standalone components and designed for Industrial IoT (IIoT) applications with minimal complexity and maximum efficiency.
 
 ##  System Architecture
 
@@ -15,7 +11,7 @@ L##  Screenshots
 │   VEHICLE       │    │   DATA LAYER     │    │   PRESENTATION  │
 │   SENSORS       │    │                  │    │     LAYER       │
 │                 │    │                  │    │                 │
-│ • Speed Sensor  │───▶│ • JSON File      │───▶│ • Angular App   │
+│ • Speed Sensor  │ >> │ • JSON File      │ >> │ • Angular App   │
 │ • Battery BMS   │    │ • HTTP Client    │    │ • Dashboard UI  │
 │ • Temperature   │    │ • 5sec Intervals │    │ • Metric Cards  │
 │ • Odometer      │    │ • Error Handling │    │ • Responsive    │
@@ -188,3 +184,4 @@ ng build
 **Rita Jindal** - Software Engieer  
 
 *Passionate about building scalable, secure, and maintainable software solutions. Experienced in microservices architecture, cloud-native, and full-stack software development.*
+
