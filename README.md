@@ -1,6 +1,6 @@
 # 🚗 Vehicle Tel## 🚀 Overview
 
-L## 📱 Screenshots
+L##  Screenshots
 
 ### Desktop View
 ![Dashboard Desktop](images/dashboard-desktop.png)
@@ -8,7 +8,7 @@ L## 📱 Screenshots
 ### Mobile View (iPhone 12 Pro - 390x844)
 ![Dashboard Mobile](images/dashboard-mobile.png)ght web dashboard for monitoring electric vehicle telemetry data in real-time. Built with Angular standalone components and designed for Industrial IoT (IIoT) applications with minimal complexity and maximum efficiency.
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```text
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
@@ -31,7 +31,7 @@ L## 📱 Screenshots
 3. **RxJS Observable** → Streams data to components
 4. **Dashboard UI** → Displays real-time metrics
 
-## 📋 Featuresy Dashboard
+##  Featuresy Dashboard
 
 A **minimal Angular application** for real-time vehicle telemetry monitoring with IIoT capabilities and JSON-based data simulation.
 
@@ -39,7 +39,7 @@ A **minimal Angular application** for real-time vehicle telemetry monitoring wit
 ![TypeScript](https://img.shields.io/badge/TypeScript-5+-blue.svg)
 ![RxJS](https://img.shields.io/badge/RxJS-7+-purple.svg)
 
-## � Screenshots
+##  Screenshots
 
 ### Desktop View
 ![Dashboard Desktop](images/dashboard-desktop.png)
@@ -47,32 +47,32 @@ A **minimal Angular application** for real-time vehicle telemetry monitoring wit
 ### Mobile View  
 ![Dashboard Mobile](images/dashboard-mobile.png)
 
-## �🚀 Overview
+##  Overview
 
 Lightweight web dashboard for monitoring electric vehicle telemetry data in real-time. Built with Angular standalone components and designed for Industrial IoT (IIoT) applications with minimal complexity and maximum efficiency.
 
-## 📋 Features
+##  Features
 
-### 📊 **Real-Time Monitoring**
+###  **Real-Time Monitoring**
 - Live vehicle telemetry updates every 5 seconds
 - Four essential metrics: Speed, Battery, Temperature, Odometer
 - Clean, responsive card-based layout
 - JSON-based data simulation (no backend required)
 
-### ⚡ **Technical Features**
+###  **Technical Features**
 - Angular 20+ with standalone components
 - RxJS BehaviorSubject for reactive data streams
 - HTTP client for JSON data loading
 - Minimal bundle size (12.58 kB total)
 - Mobile-first responsive design
 
-### 🏭 **IIoT Capabilities**
+###  **IIoT Capabilities**
 - Edge computing simulation (client-side processing)
 - Real-time data visualization
 - Scalable architecture for fleet monitoring
 - Foundation for predictive maintenance systems
 
-## 🏃‍♂️ Quick Start
+##  Quick Start
 
 ```bash
 # Clone and install
@@ -85,7 +85,7 @@ ng serve
 # Open http://localhost:4200
 ```
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: Angular 20+, TypeScript 5+
 - **State Management**: RxJS BehaviorSubject
@@ -93,7 +93,7 @@ ng serve
 - **Styling**: CSS3 with Grid layout
 - **Data Source**: JSON file (simulates IoT data stream)
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 src/
@@ -110,7 +110,7 @@ src/
 └── styles.css                 # Global styles
 ```
 
-## 📊 Data Model
+##  Data Model
 
 ### Telemetry Interface
 ```typescript
@@ -123,7 +123,7 @@ interface TelemetryData {
 }
 ```
 
-## 🔧 IIoT Integration
+##  IIoT Integration
 
 ### Current Implementation
 - **Data Source**: JSON file simulation
@@ -137,7 +137,7 @@ interface TelemetryData {
 - Alert thresholds and notifications
 - Multi-vehicle fleet management
 
-## 🚧 Development Status
+##  Development Status
 
 ### ✅ **Completed**
 - Real-time telemetry simulation
@@ -158,7 +158,7 @@ interface TelemetryData {
 - **Update Frequency**: 5-second real-time cycles
 - **Mobile Responsive**: 100% compatible
 
-## 🏷️ Use Cases
+##  Use Cases
 
 ### Fleet Management
 - Monitor electric vehicle fleets
@@ -183,8 +183,8 @@ ng build
 
 ---
 
-## 👨‍💻 About the Developer
+## About the Developer
 
-**Rita Jindal** - Full Stack Developer  
+**Rita Jindal** - Software Engieer  
 
-*Passionate about building scalable, secure, and maintainable software solutions. Experienced in microservices architecture, cloud-native development, and full-stack web applications with expertise in IIoT and real-time monitoring systems.*
+*Passionate about building scalable, secure, and maintainable software solutions. Experienced in microservices architecture, cloud-native, and full-stack software development.*
