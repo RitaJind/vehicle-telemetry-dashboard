@@ -1,4 +1,4 @@
-# 🚗 Vehicle Telemetry Overview
+#  Vehicle Telemetry Overview
 
 ##  Overview
 
@@ -147,7 +147,7 @@ interface TelemetryData {
 - Alert system for threshold monitoring  
 - WebSocket support for live data feeds
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 - **Bundle Size**: 12.58 kB (89% reduction from initial)
 - **Load Time**: < 3 seconds
@@ -184,5 +184,6 @@ ng build
 **Rita Jindal** - Software Engieer  
 
 *Passionate about building scalable, secure, and maintainable software solutions. Experienced in microservices architecture, cloud-native, and full-stack software development.*
+
 
 
